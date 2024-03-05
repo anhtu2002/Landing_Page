@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    
+    background-image: url('http://localhost/landing_page/public/images/thiet-ke-khong-gian-phong-resort.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+    justify-content: center;
+}
+.wrap{
+    width: 65%;
+}
+.wrap .header{
+    border-bottom: 1px solid white;
+    padding: 40px 0 0 0;
+    position: relative;
+}
+.wrap .header h4{
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 10px;;
+
+}
+.wrap .content{
+    margin-top: 150px;
+    display: flex;
+    position: relative;
+}
+.wrap .content .content-left ,.content-right{
+    border: 6px solid rgb(249, 249, 189);
+    padding: 25px;
+    width: 45%;
+    background-color: rgba(0, 198, 89, 0.6)
+}
+.wrap .content .content-left .left-header{
+
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wrap .content .content-left .left-header h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+.wrap .content .content-left .left-header ul{
+    margin: 15px 20px;
+    padding-left: 20px;
+}
+.wrap .content .content-left .left-header ul li{
+    margin: 5px 0;
+}
+.wrap .content .content-right{
+    position: absolute;
+    right: 0;
+    border: none;
+    color: white;
+}
+.wrap .content .content-right .right-1 h1{
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.wrap .content .content-right .right-1 h3{
+    font-style: italic;
+    margin: 6px 0;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.wrap .content .content-right .right-1 .star{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.wrap .content .content-right .right-1 .star i{
+    color: yellow;
+}
+.wrap .content .content-right .right-1 b{
+    font-size: 25px;
+    
+}
+#registerForm{
+    margin-top: 20px;
+}
+#registerForm input , button{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+#registerForm button{
+    background-color: rgb(255, 183, 0);
+    font-weight: bold;
+    border: none;
+
+}
+#registerForm button:hover{
+    background-color: rgb(255, 217, 0) ;
+}
